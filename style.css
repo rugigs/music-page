@@ -30,7 +30,7 @@ body{
 }
 #list-background{
     padding: 100px;
-    background-image: url("pictures\list.jpg");
+    background-image: url("list.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
