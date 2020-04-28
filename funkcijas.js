@@ -50,7 +50,7 @@ function stream(){
     let img = document.createElement('img');
     let src = document.createAttribute('src');
     let alt = document.createAttribute('alt');
-    src.value = 'pictures\spotify.png';
+    src.value = 'spotify.png';
     img.setAttributeNode(src);
     alt.value = 'spotify logo';
     img.setAttributeNode(alt);
@@ -66,7 +66,7 @@ function stream(){
     let img2 = document.createElement('img');
     let src2 = document.createAttribute('src');
     let alt2 = document.createAttribute('alt');
-    src2.value = 'pictures\soundcloud.png';
+    src2.value = 'soundcloud.png';
     img2.setAttributeNode(src2);
     alt2.value = 'soundcloud logo';
     img2.setAttributeNode(alt2);
