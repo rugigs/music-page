@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="funkcijas.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="top">
+            <h1>My favourite music</h1>
+            <p>I wanted to share some of my favourite music genres and artists which range form dark and aggressive to upbeat and fun.</p>
+        </div>
+        <div id="list-background">
+            <h2>My music tastes can be divided in two groups.</h2>
+
+
+            <div class="list-flex">
+                <div>
+                    <h3>Electronic music</h3>
+                    <ul>
+                        <li>House</li>
+                        <li>Trap</li>
+                        <li>Drum and base</li>
+                        <li>Techno</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Other types of music</h3>
+                    <ol>
+                        <li>Lofi</li>
+                        <li>Rap</li>
+                        <li>Pop</li>
+                        <li>Indie rock</li>
+                    </ol>
+                </div>
+            </div>
+            <h3 id="button-title">See some of my favourite artists depending on my mood.</h3>
+            <button type="button" id="artist-button" onclick="artists()">Chill out</button>
+        </div>
+
+        <div class="side2">
+            <div class="img-size">
+            <img src="pictures\jinsang.jpg" alt="jinsang image">
+            </div>
+            <div class="text-size">
+            <h2>Jinsang</h2>
+            <p>He is californian beatmaker who specializes in soft and dazed hip-hop tracks with elements sourced from soul and jazz recordings.My favourite albums of his are <b>"Blossoms"</b>, which he made with another great producer called Swum, and <b>"Confessions"</b>.</p>
+            </div>
+        </div>
+        <div class="side1">
+            <div class="img-size">
+            <img src="pictures\away.jfif" alt="away image">
+            </div>
+            <div class="text-size">
+            <h2>AWAY</h2>
+            <p>He is an electronic music producer with a unique sound. He combines electronic and rock sounds creating dark and gritty songs.Some of my facourites are <b>"Too close"</b> and <b>"Hole in the earth"</b>.</p>
+            </div>
+        </div>
+        <div class="side2">
+            <div class="img-size">
+            <img src="pictures\nujabes.jpg" alt="nujabes image">
+            </div>
+            <div class="text-size">
+            <h2>Nujabes</h2>
+            <p>A Japanese producer, DJ that combined hip-hop beats with jazz creating atmospheric instrumental mixes. Considered one of the first to music that sounds similar to the modern Lofi music. Some of my favourite tracks include <b>"World's end Rhapsody"</b> and <b>"Aruarian dance"</b>.</p>
+            </div>
+        </div>
+        <div class="side1">
+            <div class="img-size">
+            <img src="pictures\gesaffelstein.jpg" alt="gesaffelstein image">
+            </div>
+            <div class="text-size">
+            <h2>Gesaffelstein</h2>
+            <p>A French DJ and producer who is known for his dark and threatening techno which goes back to the roots of the genre. My favourites include <b>"Opr"</b> and <b>"Viol"</b>.</p>
+            </div>
+        </div>
+        <div class="side2">
+            <div class="img-size">
+            <img src="pictures\yungbae.png" alt="yung bae image">
+            </div>
+            <div class="text-size">
+            <h2>Yung bae</h2>
+            <p>He is a future funk producer who has a upbeat and fun sound. He frequently samples 1980s Japanese city pop and his music is described as groovy. Some of my favourites are <b>"Ain't nobody like you"</b> and <b>"Must be love"</b>.</p>
+            </div>
+        </div>
+        <div class="side1">
+            <div class="img-size">
+            <img src="pictures\porter.jpg" alt="porter robinson image">
+            </div>
+            <div class="text-size">
+            <h2>Porter Robinson</h2>
+            <p>A very popular electro-house producer whose music has a lot of his own personality and soul. He also has a side project called "Virtual self" with a completly diffrent yet familiar sound. My favourite songs are <b>"Shelter"</b> and <b>"Goodbye to a world"</b>.</p>
+            </div>
+        </div>
+        <div id="link">
+            <button type="button" id="button2" onclick="stream()">Stream your favourite songs</button>
+        </div>
+        <div id="form">
+            <form action="http://naivist.net/form" name="myform" onsubmit="return test()">
+                <p>This is a test form</p>
+                <p>Enter name:</p>
+                <input type="text" name="fname">
+                <p id="warning-1"></p>
+                <p>Enter a month(1-12):</p>
+                <input type="number" name="month"><br>
+                <p id="warning-2"></p>
+                <p id="warning-3"></p>
+                <button onclick="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
